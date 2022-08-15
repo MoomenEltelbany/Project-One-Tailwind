@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The normalize File -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CSS style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- The file of tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class=" m-0 p-0 box-border">
+    <!-- Start the Header -->
+    <header class="bg-slate-900 p-5 sticky top-0 z-30">
+        <div class=" container mx-auto px-4 flex justify-start items-start flex-col md:flex-row">
+            <div class="logo flex-1 min-w-max mb-4">
+                <img class="" src="imgs/logo.png" alt="Photo of the Logo">
+            </div>
+            <div class="links flex justify-center items-center flex-col md:flex-row">
+                <div class="flex flex-col md:flex-row justify-center items-center">
+                    <i class="fa-solid fa-bars self-start mr-2 text-indigo-400 block md:hidden cursor-pointer menu"></i>
+                    <ul class="list btn hidden md:flex text-white flex-col md:flex-row  ">
+                        <li class=" md:mx-5 mt-3 md:mt-0 text-blue-400 cursor-pointer">Home</li>
+                        <li class=" md:mx-5 hover:text-blue-400 duration-200 cursor-pointer">Services
+                        </li>
+                        <li class=" md:mx-5 hover:text-blue-400 duration-200 cursor-pointer">Portfolio</li>
+                        <li class=" md:mx-5 hover:text-blue-400 duration-200 cursor-pointer">About</li>
+                        <li class=" md:mx-5 hover:text-blue-400 duration-200 cursor-pointer">Contact</li>
+                    </ul>
+                    <i class=" hidden md:block fa-solid fa-magnifying-glass mx-5 my-5 py-1 px-5 text-blue-400 border-l-2 border-l-solid border-l-blue-400"></i>
+                    <button class=" hidden md:block text-yellow-500 bg-red-600 hover:text-yellow-300 duration-200 py-2 px-4 rounded-full ">Login</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End the Header -->
+    <!-- Start the Landing Page -->
+    <main class="landing bg-slate-900 flex justify-center items-center flex-col text-center">
+        <h1 class="text-white text-5xl font-bold">Taste the Creativity</h1>
+        <p class=" text-gray-500 my-6 text-xl">We make awesome graphics and web designs</p>
+        <button class=" mx-5 text-yellow-500 bg-red-600 hover:text-yellow-300 duration-200 py-2 px-4 rounded-full ">Get
+            Started</button>
+    </main>
+    <!-- End the Landing Page -->
+    <!-- Start the Design Page -->
+    <main class="design py-14" id="services">
+        <div class="title">
+            <img src="imgs/title.png" class=" mx-auto" alt="">
+            <h2 class=" text-3xl font-bold text-center py-4">We are Good at</h2>
+            <p class=" font-semibold text-center text-gray-500 py-1 uppercase relative ">Some fo these stuff under</p>
+        </div>
+        <div class="container mx-auto px-4 content mt-28 text-center grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <div class="box-1 my-4">
+                <i class="fa-solid fa-1 text-9xl text-gray-200"></i>
+                <div class="text relative">
+                    <h2 class="text-yellow-400 text-2xl font-bold mt-5">Graphic Design</h2>
+                    <i class="fa-solid fa-pencil absolute text-blue-400 text-5xl"></i>
+                    <p class="text-gray-600 leading-7 mt-3">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+            </div>
+            <div class="box-2 my-4">
+                <i class="fa-solid fa-2 text-9xl text-gray-200"></i>
+                <div class="text relative">
+                    <h2 class="text-yellow-400 text-2xl font-bold mt-5">Graphic Design</h2>
+                    <i class="fa-solid fa-tv absolute text-blue-400 text-5xl"></i>
+                    <p class="text-gray-600 leading-7 mt-3">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+            </div>
+            <div class="box-3 my-4">
+                <i class="fa-solid fa-3 text-9xl text-gray-200"></i>
+                <div class="text relative">
+                    <h2 class="text-yellow-400 text-2xl font-bold mt-5">Graphic Design</h2>
+                    <i class="fa-solid fa-plug absolute text-blue-400 text-5xl"></i>
+                    <p class="text-gray-600 leading-7 mt-3">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- End the Design Page -->
+    <!-- Start the projects Section -->
+    <main class="projects py-10 bg-slate-300">
+        <div class="title">
+            <img src="imgs/title.png" class=" mx-auto" alt="">
+            <h2 class=" text-3xl font-bold text-center py-4">We Make This</h2>
+            <p class=" font-semibold text-center text-gray-500 py-1 uppercase relative ">Prepare to be Amazed</p>
+        </div>
+        <div class=" container mx-auto my-12">
+            <ul class="flex gap-6 justify-center items-center">
+                <li class=" text-yellow-600 bg-red-700 rounded px-5 py-1 cursor-pointer">All</li>
+                <li class="cursor-pointer hover:text-red-700">Design</li>
+                <li class="cursor-pointer hover:text-red-700">Code</li>
+                <li class="cursor-pointer hover:text-red-700">Photo</li>
+                <li class="cursor-pointer hover:text-red-700">App</li>
+            </ul>
+            <section class=" grid justify-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 my-8">
+                <div class=" card mx-auto relative overflow-hidden cursor-pointer">
+                    <img src="imgs/work-01.jpg" alt="">
+                </div>
+                <div class=" card mx-auto relative overflow-hidden cursor-pointer">
+                    <img src="imgs/work-02.jpg" alt="">
+                </div>
+                <div class=" card mx-auto relative overflow-hidden cursor-pointer">
+                    <img src="imgs/work-03.jpg" alt="">
+                </div>
+                <div class=" card mx-auto relative overflow-hidden cursor-pointer">
+                    <img src="imgs/work-04.jpg" alt="">
+                </div>
+                <div class=" card mx-auto relative overflow-hidden cursor-pointer">
+                    <img src="imgs/work-05.jpg" alt="">
+                </div>
+                <div class=" card mx-auto relative overflow-hidden cursor-pointer">
+                    <img src="imgs/work-06.jpg" alt="">
+                </div>
+                <div class=" card mx-auto relative overflow-hidden cursor-pointer">
+                    <img src="imgs/work-07.jpg" alt="">
+                </div>
+                <div class=" card mx-auto relative overflow-hidden cursor-pointer">
+                    <img src="imgs/work-08.jpg" alt="">
+                </div>
+
+            </section>
+            <button class=" block mx-auto text-yellow-500 bg-red-600 hover:text-yellow-300 duration-200 py-2 px-4 rounded-full ">I
+                Want More</button>
+        </div>
+    </main>
+    <!-- End the projects Section -->
+    <!-- Start the Stuff Section -->
+    <main class="stuff">
+        <div class="title mt-24">
+            <img src="imgs/title.png" class=" mx-auto" alt="">
+            <h2 class=" text-3xl font-bold text-center py-4">Some Stuff About Us</h2>
+            <p class=" font-semibold text-center text-gray-500 py-1 uppercase relative ">The great team</p>
+            <section class=" p-3 mt-10 w-full md:w-1/2 mx-auto text-center">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</section>
+
+        </div>
+        <div class=" container mx-auto mt-14 flex justify-between flex-col md:flex-row">
+            <section class="w-full md:w-1/2 text-center md:text-left p-4">
+                <h3 class=" text-3xl font-bold mb-8">Retina Design</h3>
+                <p class=" mb-8 text-gray-400 leading-loose">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque
+                    in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                <button class=" text-yellow-500 bg-red-600 hover:text-yellow-300 duration-200 py-2 px-4 rounded-full ">Order
+                    Me One</button>
+            </section>
+            <div class=" mt-10 md:mt-0">
+                <img src="imgs/laptop.png" alt="">
+            </div>
+        </div>
+
+    </main>
+    <!-- End the Stuff Section -->
+    <!-- Start the team section -->
+    <main class="team bg-slate-300 py-10">
+        <div class=" container mx-auto text-center">
+            <h2 class=" my-5 text-yellow-500 text-3xl font-bold uppercase">Meet the team</h2>
+            <p class=" text-gray-600">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+            </p>
+            <div class="cards my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="box mx-4 lg:mx-0">
+                    <img src="imgs/team-1.png" alt="" class=" w-full">
+                    <h3 class=" bg-blue-400 text-white text-2xl font-semibold p-3">Luke Skywalker</h3>
+                    <blockquote class=" bg-white text-gray-500 text-lg px-3 py-4">“I don't understand how we got by those troops. I thought we were dead.“
+                    </blockquote>
+                </div>
+                <div class="box mx-4 lg:mx-0">
+                    <img src="imgs/team-2.png" alt="" class=" w-full">
+                    <h3 class=" bg-blue-400 text-white text-2xl font-semibold p-3">Luke Skywalker</h3>
+                    <blockquote class=" bg-white text-gray-500 text-lg px-3 py-4">“I don't understand how we got by those troops. I thought we were dead.“
+                    </blockquote>
+                </div>
+                <div class="box mx-4 lg:mx-0">
+                    <img src="imgs/team-3.png" alt="" class=" w-full">
+                    <h3 class=" bg-blue-400 text-white text-2xl font-semibold p-3">Luke Skywalker</h3>
+                    <blockquote class=" bg-white text-gray-500 text-lg px-3 py-4">“I don't understand how we got by those troops. I thought we were dead.“
+                    </blockquote>
+                </div>
+                <div class="box mx-4 lg:mx-0">
+                    <img src="imgs/team-4.png" alt="" class=" w-full">
+                    <h3 class=" bg-blue-400 text-white text-2xl font-semibold p-3">Luke Skywalker</h3>
+                    <blockquote class=" bg-white text-gray-500 text-lg px-3 py-4">“I don't understand how we got by those troops. I thought we were dead.“
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End the team section -->
+    <!-- Start the logos section -->
+    <main class="py-10">
+        <div class=" container mx-auto grid place-items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+            <div class=" my-4">
+                <img src="imgs/tech-1.png" alt="">
+            </div class=" my-4">
+            <div>
+                <img src="imgs/tech-2.png" alt="">
+            </div>
+            <div class=" my-4">
+                <img src="imgs/tech-3.png" alt="">
+            </div>
+            <div class=" my-4">
+                <img src="imgs/tech-4.png" alt="">
+            </div>
+            <div class=" my-4">
+                <img src="imgs/tech-1.png" alt="">
+            </div>
+            <div class=" my-4">
+                <img src="imgs/tech-2.png" alt="">
+            </div>
+        </div>
+    </main>
+    <!-- End the logos section -->
+    <!-- Star the project text section -->
+    <main class=" py-20 bg-slate-900">
+        <div class=" container mx-auto text-center p-3">
+            <h3 class=" text-3xl font-semibold my-5 text-white">Start Your Project Now</h3>
+            <p class=" text-xl text-gray-400 my-5">Leave your description and we start the engine.Don't worry,you can cancel anytime
+            </p>
+            <button class=" text-yellow-500 bg-red-600 hover:text-yellow-300 duration-200 py-2 px-4 rounded-full ">Order
+                Me One</button>
+        </div>
+    </main>
+    <!-- End the project text section -->
+    <!-- Start the blog section -->
+    <main class=" py-10">
+        <div class="title mt-24">
+            <img src="imgs/title.png" class=" mx-auto" alt="">
+            <h2 class=" text-3xl font-bold text-center py-4">Read Our Blog</h2>
+            <p class=" font-semibold text-center text-gray-500 py-1 uppercase relative ">NEW STORIES</p>
+        </div>
+        <div class=" container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="box my-10 mx-3 border border-slate-300 border-solid rounded overflow-hidden">
+                <img src="imgs/blog-1.jpg" alt="" class=" w-full">
+                <p class=" px-3 mt-2 text-gray-400 text-base">Jul 04, 2022</p>
+                <p class=" px-3 text-xl mb-4">Some Awesome Blog Title Here</p>
+            </div>
+            <div class="box my-10 mx-3 border border-slate-300 border-solid rounded overflow-hidden">
+                <img src="imgs/blog-2.jpg" alt="" class=" w-full">
+                <p class=" px-3 mt-2 text-gray-400 text-base">Jul 04, 2022</p>
+                <p class=" px-3 text-xl mb-4">Some Awesome Blog Title Here</p>
+            </div>
+            <div class="box my-10 mx-3 border border-slate-300 border-solid rounded overflow-hidden">
+                <img src="imgs/blog-3.jpg" alt="" class=" w-full">
+                <p class=" px-3 mt-2 text-gray-400 text-base">Jul 04, 2022</p>
+                <p class=" px-3 text-xl mb-4">Some Awesome Blog Title Here</p>
+            </div>
+        </div>
+    </main>
+    <!-- End the blog section -->
+    <!-- Start Contact Us Section -->
+    <main class=" py-20 bg-yellow-500">
+        <div class=" container mx-auto grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-3 items-center">
+            <p class=" p-3 text-xl text-slate-900 font-semibold text-center col-span-3 md:col-span-6 lg:col-span-3 ">
+                Subscribe to our Newsletter:</p>
+            <input type="text" placeholder="Enter Your Email Here" class=" mx-5 text-xl col-span-3 md:col-span-6 lg:col-span-7 bg-yellow-500 placeholder: placeholder:text-white focus:outline-none caret-slate-900 border-b-2 border-b-white">
+            <div class="col-span-3 md:col-span-6 lg:col-span-2 mx-auto">
+                <button class="  text-yellow-500 text-lg bg-slate-900 p-3 rounded-full">Subscribe</button>
+            </div>
+        </div>
+    </main>
+    <!-- End Contact Us Section -->
+    <!-- Start the footer -->
+    <footer class="py-10 bg-slate-900 text-gray-400">
+        <div class=" container mx-auto grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-4">
+            <div class="col-span-1 md:col-span-3 lg:col-span-4 mx-5 text-center md:text-left">
+                <div class=" mb-5">
+                    <img src="imgs/logo.png" alt="" class=" mx-auto md:mx-0">
+                </div>
+                <p class=" my-5">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                <p class=" mt-8">Created By <span class=" text-blue-500 font-bold">Graphberry</span></p>
+                <p>&copy; 2022 - <span class=" text-yellow-500 font-bold">Bondi Inc</span></p>
+            </div>
+            <div class="col-span-1 md:col-span-3 lg:col-span-2 font-semibold mx-5 text-center md:text-left mt-3">
+                <h2 class=" text-2xl text-white mb-4">Links</h2>
+                <ul>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Home</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Our Services</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Portfolio</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Testimonials</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Support</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Terms and Conditions</li>
+                </ul>
+            </div>
+            <div class="about-us col-span-1 md:col-span-3 lg:col-span-2 mx-5 text-center md:text-left mt-3">
+                <h2 class=" text-2xl text-white mb-4">About Us</h2>
+                <ul class=" font-semibold">
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Sign In</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Regsiter</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">About Us</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Blog</li>
+                    <li class=" my-2 cursor-pointer duration-300 hover:pl-2">Contact Us</li>
+
+                </ul>
+            </div>
+            <div class="contact-us col-span-1 md:col-span-3 lg:col-span-4 mx-5 text-center md:text-left mt-3">
+                <h2 class=" text-2xl text-white mb-4">Contact Us</h2>
+                <p class=" text-lg font-semibold leading-loose mt-5 mb-10">Get in touch with us via mail phone.We are waiting for your call or message
+                </p>
+                <button class=" block w-full text-yellow-500 bg-red-600 hover:text-yellow-300 duration-200 py-2 px-4 rounded-full ">graphberyy@gmail.com</button>
+                <div class="social-media my-10 flex justify-center gap-10">
+                    <i class="fa-brands fa-facebook cursor-pointer text-2xl text-white bg-blue-600 w-9 h-9 rounded-full flex justify-center items-center"></i>
+                    <i class="fa-brands fa-twitter cursor-pointer text-2xl text-white bg-blue-400 w-9 h-9 rounded-full flex justify-center items-center"></i>
+                    <i class="fa-brands fa-youtube cursor-pointer text-2xl text-white bg-red-600 w-9 h-9 rounded-full flex justify-center items-center"></i>
+                    <i class="fa-brands fa-linkedin cursor-pointer text-2xl text-white bg-blue-800 w-9 h-9 rounded-full flex justify-center items-center"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End the footer -->
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+/* Start the heading section */
+
+.list {
+    display: flex !important;
+}
+
+
+/* End the heading section */
+
+
+/* Start Landing Page */
+
+.landing {
+    height: calc(100vh - 84px);
+}
+
+
+/* End Landing Page */
+
+
+/* Start the title config=== Will use more than once */
+
+.title p::before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 2px;
+    background-color: aqua;
+}
+
+
+/* End the title config=== Will use more than once */
+
+
+/* Start the Design Section */
+
+.design .text i {
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* End the Design Section */
+
+
+/* Start the Project Section */
+
+.projects .card::before {
+    content: "Work Application";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 162, 255, 0.514);
+    font-size: 24px;
+    transition: all;
+    transition-duration: 0.7s;
+}
+
+.projects .card:hover:before {
+    left: 0;
+}
+
+
+/* End the Project Section */
